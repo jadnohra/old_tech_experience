@@ -42,7 +42,8 @@ __I take the responsibility upon myself to spend interview time taking my approa
             2. https://gitlab.com/jadnohra/project_gk/blob/master/Code/hinge_nlsq_simul.py
             3. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool.py
             4. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool_repo.txt
-            5. Terminal: python hinges_py2.py -scene chain -help -fancy -wobble_body -fwd_euler -control
+            5. Terminal: 
+                 ```python hinges_py2.py -scene chain -help -fancy -wobble_body -fwd_euler -control```
         * Show MLCP
             1. Preliminary: https://www.dropbox.com/preview/LibraryLive/TheNotes/Notes%20on%20the%20Linear%20Complementarity%20Problem.pdf?role=personal
             2. Show Notebook
