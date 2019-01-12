@@ -92,7 +92,16 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 4. Network physics R&D
     1. Research report and proposed designs
     2. Prototype
-5. Guerrila Games
+5. Job queue combinatorial delay mode
+    * 1/100000 repro -> found in an hour
+6. Geometry numerical issues
+    * Jira epsilon
+    * Ray sphere: improvement by intuitive solution
+    * Ray triangle
+        * Improvement by analytical solution
+        * Telescoping debugger
+    * Sampler prototype (RRT)
+7. Guerrila Games
     1. AI environment-aware physical behavior: https://www.youtube.com/watch?v=_mXYAPUIAqg
     2. Automatic region generation
         1. Porting of recast 'ugly and cryptic' code
@@ -101,6 +110,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         3. Choose and implement
         4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
     3. Vehicle AI: https://www.youtube.com/watch?v=QjmRA2Obu9I
+    4. SPU + PS3 multithreading/DMA hard bug chasing
 
 
 
