@@ -48,6 +48,8 @@ __I take the responsibility upon myself to spend interview time taking my approa
             1. Preliminary: https://www.dropbox.com/preview/LibraryLive/TheNotes/Notes%20on%20the%20Linear%20Complementarity%20Problem.pdf?role=personal
             2. Show Notebook
             3. Show Videos
+                * Titan Arm: https://www.dropbox.com/home/Business/HifiSolver?preview=arm.mp4
+                * Digger: https://www.dropbox.com/home/Business/HifiSolver?preview=digger.mp4
             4. Cannot show code
     2. Large single-topic latex documents
         1. show PL/QL
