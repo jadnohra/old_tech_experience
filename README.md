@@ -93,13 +93,14 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     1. Research report and proposed designs
     2. Prototype
 5. Guerrila Games
-    1. AI environment-aware physical behavior
+    1. AI environment-aware physical behavior: https://www.youtube.com/watch?v=_mXYAPUIAqg
     2. Automatic region generation
         1. Porting of recast 'ugly and cryptic' code
             * Improvements of corner cases that other companies presented as challenges during GDC
         2. Research sekeltonization algorithms
         3. Choose and implement
-        4. Modify to fit our application (stray edges)
+        4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
+    3. Vehicle AI
 
 
 
