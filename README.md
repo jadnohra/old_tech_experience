@@ -100,7 +100,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         2. Research sekeltonization algorithms
         3. Choose and implement
         4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
-    3. Vehicle AI
+    3. Vehicle AI: https://www.youtube.com/watch?v=QjmRA2Obu9I
 
 
 
