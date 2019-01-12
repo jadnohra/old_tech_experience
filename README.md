@@ -55,9 +55,11 @@ __I take the responsibility upon myself to spend interview time taking my approa
                 * Digger: https://www.dropbox.com/home/Business/HifiSolver?preview=digger.mp4
             4. Cannot show code
     2. Large single-topic latex documents
-        1. show PL/QL
+        1. show PL/QL printed book
     3. Currently: combination of physical notes, latex summaries, and gitlab project management
-        1. Show 'Logic Qs' on gitlab
+        1. https://gitlab.com/jadnohra/study/issues/17
+        2. https://gitlab.com/jadnohra/study/issues/7
+        3. https://gitlab.com/jadnohra/study/issues/13 -> https://gitlab.com/jadnohra/study/issues/15
 
 
 
