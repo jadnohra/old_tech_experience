@@ -60,6 +60,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
         1. https://gitlab.com/jadnohra/study/issues/17
         2. https://gitlab.com/jadnohra/study/issues/7
         3. https://gitlab.com/jadnohra/study/issues/13 -> https://gitlab.com/jadnohra/study/issues/15
+        4. I also use this for developing all the high-level knowledge I need about SIM & L4+, but cannot show
 
 
 
