@@ -88,7 +88,18 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * Found bugs in other pieces of code, including hard to find bugs due to slow accumulation of wrong calculation
         * tunable per-platform using a very carefully configured set of macros (> 10 options -> code path combinations)
     7. Example of pyramid at Figure 12
-
+3. Deterministic scaling of cores (Intel many-core CPU R&D)
+4. Network physics R&D
+    1. Research report and proposed designs
+    2. Prototype
+5. Guerrila Games
+    1. AI environment-aware physical behavior
+    2. Automatic region generation
+        1. Porting of recast 'ugly and cryptic' code
+            * Improvements of corner cases that other companies presented as challenges during GDC
+        2. Research sekeltonization algorithms
+        3. Choose and implement
+        4. Modify to fit our application (stray edges)
 
 
 
