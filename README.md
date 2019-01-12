@@ -66,17 +66,28 @@ __I take the responsibility upon myself to spend interview time taking my approa
             * The older the topic, the longer the lead time, can take from a couple of hours to a couple of weeks
 
 ## Technical tidbits
+
+### At Havok
+
+Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=short_history.pdf
+
 1. Nintendo WiiU math library
     1. Instruction-level ARM (handicapped two-float SIMD)
     2. Buggy compiler in terms of performance optimization
     3. Very tight deadline, with failed attempts, and important business deal, on Christmas
-    4. https://www.dropbox.com/home/Business/Hvk/short_history?preview=short_history.pdf
+    4. Figure 17
 2. Physics-2014 contact solver perfromance
     1. Outdated expert mental models of CPUs
     2. Benchmarking ignoring real data
     3. Research (lead time) -> branch prediction as main actor in this context
     4. Proof using counter example
     5. New (intrusive) optimization : couplign geometry processing to solver using data rearrangement
+    6. Also, wrote whole new contact solver, critical component in all games shipped since ~2014
+        * No bugs ever reported
+        * Defensive code (tunable defensiveness -> math library only has INFTY and NAN warnings)
+        * Found bugs in other pieces of code, including hard to find bugs due to slow accumulation of wrong calculation
+        * tunable per-platform using a very carefully configured set of macros (> 10 options -> code path combinations)
+    7. Example of pyramid at Figure 12
 
 
 
