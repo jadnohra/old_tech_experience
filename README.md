@@ -100,7 +100,9 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     * Ray triangle
         * Improvement by analytical solution
         * Telescoping debugger
-    * Sampler prototype (RRT)
+    * Led to passion about numerical analysis (Studying, etc.)
+        * Sampler prototype (RRT)
+        * Interval math library with pessimistic approximate but fast bounds (2x slower than normal arithmetic)
 7. Guerrila Games
     1. AI environment-aware physical behavior: https://www.youtube.com/watch?v=_mXYAPUIAqg
     2. Automatic region generation
