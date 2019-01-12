@@ -61,6 +61,12 @@ __I take the responsibility upon myself to spend interview time taking my approa
         2. https://gitlab.com/jadnohra/study/issues/7
         3. https://gitlab.com/jadnohra/study/issues/13 -> https://gitlab.com/jadnohra/study/issues/15
         4. I also use this for developing all the high-level knowledge I need about SIM & L4+, but cannot show
+        5. The biggest challenge is still memorization, I do not do it actively anymore, except when I really have to
+            * I try to work more as a 'processing machine', I open my notes, switch context for a while, and process for results
+            * The older the topic, the longer the lead time, can take from a couple of hours to a couple of weeks
+
+## Technical tidbits
+1. Nintendo WiiU math library
 
 
 
