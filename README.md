@@ -70,6 +70,13 @@ __I take the responsibility upon myself to spend interview time taking my approa
     1. Instruction-level ARM (handicapped two-float SIMD)
     2. Buggy compiler in terms of performance optimization
     3. Very tight deadline, with failed attempts, and important business deal, on Christmas
+    4. https://www.dropbox.com/home/Business/Hvk/short_history?preview=short_history.pdf
+2. Physics-2014 contact solver perfromance
+    1. Outdated expert mental models of CPUs
+    2. Benchmarking ignoring real data
+    3. Research (lead time) -> branch prediction as main actor in this context
+    4. Proof using counter example
+    5. New (intrusive) optimization : couplign geometry processing to solver using data rearrangement
 
 
 
