@@ -67,6 +67,9 @@ __I take the responsibility upon myself to spend interview time taking my approa
 
 ## Technical tidbits
 1. Nintendo WiiU math library
+    1. Instruction-level ARM (handicapped two-float SIMD)
+    2. Buggy compiler in terms of performance optimization
+    3. Very tight deadline, with failed attempts, and important business deal, on Christmas
 
 
 
