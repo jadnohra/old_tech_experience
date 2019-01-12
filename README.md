@@ -39,6 +39,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
     1. Physical notebooks
         * Show GK notes and paper
             1. https://gitlab.com/jadnohra/project_gk/blob/master/simp-hing-analyt/simp-hing-analyt.pdf
+                * https://arxiv.org/pdf/1605.08221.pdf
             2. https://gitlab.com/jadnohra/project_gk/blob/master/Code/hinge_nlsq_simul.py
             3. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool.py
             4. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool_repo.txt
@@ -75,6 +76,19 @@ TODO notes of interest
 https://www.dropbox.com/home/LibraryLive/TheNotes
 TODO notes of interest
 
+OTHER
+https://gitlab.com/jadnohra/BlackRiceLabs/blob/master/VehicleTest/RandomizedFlowFieldPlanner2.h
+https://gitlab.com/jadnohra/BlackRiceLabs/blob/master/VehicleTest/RandomizedFlowFieldPlanner.h
+https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
+https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/gk_notes_p45.txt
+https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/test_df.txt
+https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Numerical/nics
+https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Labs/Bigeye/src/BE/smart_ptr.h
+https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE
+https://www.youtube.com/watch?v=SEntMI6s6RQ&t=0s&list=PL753A83C4444A2486&index=2
+
+https://www.youtube.com/watch?v=lDNY4-mupf0&list=PL5ED86276C6DB1347&t=0s&index=2
+https://www.youtube.com/watch?v=zBxg_Mp3md0&list=PL5ED86276C6DB1347&index=2
 
 
 
