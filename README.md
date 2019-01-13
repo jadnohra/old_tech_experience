@@ -158,7 +158,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
     * [Bigfoot video](https://www.youtube.com/watch?v=SEntMI6s6RQ&t=0s&list=PL753A83C4444A2486&index=2)
         * <img src="old/bigfoot_1.png" height="240"/> <img src="old/bigfoot_2.png" height="240"/> 
     * [Bigeye on gitlab](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE)
-
+        * <img src="old/bigeye_1.png" width="320"/>
 
 ## Problem Solving Approach
 
