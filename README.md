@@ -150,6 +150,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
 ## Before that
 1. World of Football
     * [On github](https://github.com/jadnohra/World-Of-Football)
+        *  <img src="old/wof_teaser.png" width="320"/> 
     * [Youtube videos](https://www.youtube.com/watch?v=lDNY4-mupf0&list=PL5ED86276C6DB1347&t=0s&index=2)
     * [Youtube videos](https://www.youtube.com/watch?v=zBxg_Mp3md0&list=PL5ED86276C6DB1347&index=2)
 
