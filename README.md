@@ -118,8 +118,9 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * Interval math library with pessimistic approximate but fast bounds (2x slower than normal arithmetic)
         * Also first steps into numerical analysis for dynamics : [Residuals](hvk_other/respart1.pdf)
 7. TOI Argument
-    * Open problem since the 'toi' engine was abandoned
+    * Open problem ever since the 'toi' engine was abandoned
     * Multiple attempts that replaced artifacts with other artifacts
+    * Proved that the problem is not solvable: [TOI argument](hvk_other/toiarg1.pdf)
     * Effect: stop searching for the solution, focus on which artifacts to trade and when
 8. HKDS
     * Initial business need (ds_overview1.pdf)
