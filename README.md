@@ -156,12 +156,9 @@ __I take the responsibility upon myself to spend interview time taking my approa
     * [Youtube videos](https://www.youtube.com/watch?v=zBxg_Mp3md0&list=PL5ED86276C6DB1347&index=2)
 2. Mocap loader, skelton semantics, footplant detection, UI framework
     * [Bigfoot video](https://www.youtube.com/watch?v=SEntMI6s6RQ&t=0s&list=PL753A83C4444A2486&index=2)
-        * <img src="old/bigfoot_1.png" height="320"/> <img src="old/bigfoot_2.png" height="320"/> 
+        * <img src="old/bigfoot_1.png" height="240"/> <img src="old/bigfoot_2.png" height="240"/> 
     * [Bigeye on gitlab](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE)
-    
 
-TODO
-Youtube videos
 
 ## Problem Solving Approach
 
@@ -176,7 +173,9 @@ Youtube videos
             2. https://gitlab.com/jadnohra/project_gk/blob/master/Code/hinge_nlsq_simul.py
             3. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool.py
             4. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool_repo.txt
-            5. Terminal: 
+            5. https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/gk_notes_p45.txt
+            6. https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/test_df.txt
+            7. Terminal: 
                  ```python hinges_py2.py -scene chain -help -fancy -wobble_body -fwd_euler -control```
     2. Large single-topic latex documents
         1. show PL/QL printed book
@@ -208,11 +207,6 @@ Youtube videos
     * https://www.dropbox.com/home/LibraryLive/TheNotes2
     * https://www.dropbox.com/home/LibraryLive/TheNotes2?preview=pointillistic.pdf
     * https://www.dropbox.com/home/LibraryLive/TheNotes
-
-OTHER
-
-https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/gk_notes_p45.txt
-https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/test_df.txt
 
 
 
