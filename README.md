@@ -123,7 +123,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     * Proved that the problem is not solvable: [TOI argument](hvk_other/toiarg1.pdf)
     * Effect: stop searching for the solution, focus on which artifacts to trade and when
 8. HKDS
-    * Initial business need (ds_overview1.pdf)
+    * Initial business need -> [HKDS overview](hkds/ds_overview1.pdf)
     * Ambitious project
         * ds_simple
         * ds_detail
