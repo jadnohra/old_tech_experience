@@ -94,7 +94,8 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 3. Deterministic scaling of cores (Intel many-core CPU R&D)
     * <img src="hvk_other/sched.png" width="320"/>
 4. Network physics R&D
-    1. Research report and proposed designs: [<img src="netw/csarch1_screen1.png" width="320"/> ](netw/csarch1.pdf)
+    1. [Research report](netw/csarch1.pdf) and proposed designs
+        * <img src="netw/csarch1_screen1.png" width="320"/>
     2. Prototype
         * <img src="netw/viewer5.jpeg" width="320"/> <img src="netw/pyramid_split.png" width="320"/>
         * <img src="netw/viewer6.jpeg" width="320"/> <img src="netw/sectors2.jpeg" width="320"/>
@@ -104,11 +105,12 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     * 1/100000 repro -> found in an hour
 6. Geometry numerical issues
     * [Jira epsilon](geom_num/JiraEpsilon.pdf)
+        * <img src="geom_num/JiraEpsilon_screen1.png" width="320"/>     
     * Ray sphere: improvement by intuitive solution
         * <img src="geom_num/RaySphere.png" width="320"/>
     * Ray triangle
         * Improvement by analytical solution
-            * Books like '???', resources like '???'
+            * Books like 'Floating-Point Computation (Strebenz)', resources like '???'
         * Telescoping debugger
         * <img src="geom_num/00-10km_NoToleranceAlgo_CurrAlgo.jpg" width="320"/> <img src="geom_num/04-10km_ZeroToleranceAlgo_CurrAlgo.jpg" width="320"/> 
         * <img src="geom_num/01-30km_NaiveTolerranceAlgo.jpg" width="320"/>	<img src="geom_num/02-30km_ThickEdgeAlgo.jpg" width="320"/>		
