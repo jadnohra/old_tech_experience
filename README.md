@@ -13,13 +13,14 @@ I decided to take option 2, because
 1. This time, I have very little time to prepare
 2. Too ambitious work at AID, toughest timelines I ever hard -> take my work home
     * A bit of CS problem solving prep: https://auth.geeksforgeeks.org/user/Jad%20Nohra/practice/
+    * But could not do more (show notes)
     * Big O 
         * Versus notes on asymptotic notation in GK
         * Database of integer sequences (know from 'The Cauchy-Schwarz Masterclass')
 3. There are way too many topics that would need de-rusting
     * example: smart pointers were a topic 8 years ago (see date)
     * https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Labs/Bigeye/src/BE/smart_ptr.h
-4. Option 2 worked at AID, partially due to the offline tech task
+4. Option 1 worked at AID, partially due to the offline tech task
     1. Fits my 'French system' historical way of working
     2. But I am now working on improving this
         * Take chances at work for live deep thinking & collaboration
