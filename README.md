@@ -188,7 +188,7 @@ Youtube videos
     * Remembered notes on asymptotic notation in GK
     * Database of integer sequences (know from 'The Cauchy-Schwarz Masterclass')
 * Concurrency prep
-    * <img src="prep/semaph.png" width="320"/>
+    * <img src="prep/semaph_prep.png" width="320"/>
     * [cpp prep](./prep/cpp)
 
 References
