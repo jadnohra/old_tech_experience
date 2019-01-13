@@ -83,8 +83,10 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     2. Benchmarking ignoring real data
     3. Research (https://www.agner.org/optimize/#manuals) -> branch prediction as main actor in this context
     4. Proof using counter example :  <img src="netw/pyramid_split.png" width="240"/>
-    5. New (intrusive) optimization : couplign geometry processing to solver using data rearrangement
+    5. New (intrusive) optimization : coupling geometry processing to solver using data rearrangement
     6. Also, wrote whole new contact solver, critical component in all games shipped since ~2014
+        * To get an idea: https://github.com/bulletphysics/bullet3/blob/cdd56e46411527772711da5357c856a90ad9ea67/src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolverMt.cpp
+        * Havok's focus: performance
         * No bugs ever reported
         * Defensive code (tunable defensiveness -> math library only has INFTY and NAN warnings)
         * Found bugs in other pieces of code, including hard to find bugs due to slow accumulation of wrong calculation
