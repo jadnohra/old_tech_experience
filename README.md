@@ -112,10 +112,10 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * Improvement by analytical solution
             * Books like 'Floating-Point Computation (Strebenz)', resources like '???'
         * Telescoping debugger
-        * <img src="geom_num/00-10km_NoToleranceAlgo_CurrAlgo.jpg" width="320"/> <img src="geom_num/04-10km_ZeroToleranceAlgo_CurrAlgo.jpg" width="320"/> 
-        * <img src="geom_num/01-30km_NaiveTolerranceAlgo.jpg" width="320"/>	<img src="geom_num/02-30km_ThickEdgeAlgo.jpg" width="320"/>		
-        * <img src="geom_num/03-30km_ZoomIn_ThickEdgeAlgo.jpg" width="320"/> <img src="geom_num/05-10km_ZoomIn_ThickEdge.jpg" width="320"/>
-        * <img src="geom_num/rt1.jpeg" width="320"/>
+        * <img src="geom_num/00-10km_NoToleranceAlgo_CurrAlgo.jpg" width="240"/> <img src="geom_num/04-10km_ZeroToleranceAlgo_CurrAlgo.jpg" width="240"/> 
+        * <img src="geom_num/01-30km_NaiveTolerranceAlgo.jpg" width="240"/>	<img src="geom_num/02-30km_ThickEdgeAlgo.jpg" width="240"/>		
+        * <img src="geom_num/03-30km_ZoomIn_ThickEdgeAlgo.jpg" width="240"/> <img src="geom_num/05-10km_ZoomIn_ThickEdge.jpg" width="240"/>
+        * <img src="geom_num/rt1.jpeg" width="240"/>
     * Led to passion about numerical analysis (Studying, etc.)
         * [Sampler prototype (RRT)](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Numerical/nics)
             * <img src="geom_num/nics_rnn.png" width="320"/> 
