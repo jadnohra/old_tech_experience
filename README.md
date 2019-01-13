@@ -104,9 +104,15 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 6. Geometry numerical issues
     * [Jira epsilon](geom_num/JiraEpsilon.pdf)
     * Ray sphere: improvement by intuitive solution
+        * <img src="geom_num/RaySphere.png" width="320"/>
     * Ray triangle
         * Improvement by analytical solution
+            * Books like '???', resources like '???'
         * Telescoping debugger
+        * <img src="geom_num/00-10km_NoToleranceAlgo_CurrAlgo.jpg" width="320"/> <img src="geom_num/04-10km_ZeroToleranceAlgo_CurrAlgo.jpg" width="320"/> 
+        * <img src="geom_num/01-30km_NaiveTolerranceAlgo.jpg" width="320"/>	<img src="geom_num/02-30km_ThickEdgeAlgo.jpg" width="320"/>		
+        * <img src="geom_num/03-30km_ZoomIn_ThickEdgeAlgo.jpg" width="320"/> <img src="geom_num/05-10km_ZoomIn_ThickEdge.jpg" width="320"/>
+        * <img src="geom_num/rt1.jpeg" width="320"/>
     * Led to passion about numerical analysis (Studying, etc.)
         * Sampler prototype (RRT)
         * Interval math library with pessimistic approximate but fast bounds (2x slower than normal arithmetic)
