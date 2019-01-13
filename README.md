@@ -94,7 +94,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     * <img src="hvk_other/sched.png" width="320"/>
 4. Network physics R&D
     1. [Research report](netw/csarch1.pdf) and proposed designs
-        * <img src="netw/csarch1_screen1.png" width="320"/>
+        * <img src="netw/csarch1_screen2.png" width="320"/> <img src="netw/csarch1_screen1.png" width="320"/>
     2. Prototype
         * <img src="netw/viewer5.jpeg" width="320"/> <img src="netw/pyramid_split.png" width="320"/>
         * <img src="netw/viewer6.jpeg" width="320"/> <img src="netw/sectors2.jpeg" width="320"/>
