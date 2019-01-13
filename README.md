@@ -104,17 +104,43 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     * Led to passion about numerical analysis (Studying, etc.)
         * Sampler prototype (RRT)
         * Interval math library with pessimistic approximate but fast bounds (2x slower than normal arithmetic)
-7. Guerrila Games
-    1. AI environment-aware physical behavior: https://www.youtube.com/watch?v=_mXYAPUIAqg
-    2. Automatic region generation
-        1. Porting of recast 'ugly and cryptic' code
-            * Improvements of corner cases that other companies presented as challenges during GDC
-        2. Research sekeltonization algorithms
-        3. Choose and implement
-        4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
-    3. Vehicle AI: https://www.youtube.com/watch?v=QjmRA2Obu9I
-    4. SPU + PS3 multithreading/DMA hard bug chasing
+        * (respart1.pdf)
+7. TOI Argument
+    * Open problem since the 'toi' engine was abandoned
+    * Multiple attempts that replaced artifacts with other artifacts
+    * Effect: stop searching for the solution, focus on which artifacts to trade and when
+8. HKDS
+    * Initial business need (ds_overview1.pdf)
+    * Ambitious project
+        * ds_simple
+        * ds_detail
+        * fast forward: videos
+            * https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4
+            * https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4
+        * Notebook
+        * Prototyping code: https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
+        * Dynamics debugging tool: hkds/mlcp_trace.png, hkds/trace.pdf
+    * Prerequisites that allowed to even start tackling this
+        * Rotations
+        * Work on stabilizing certain constraints
+        * Notebook notes on 'universal constraint'
+        * Substepping (a stumbling block for others at multiple occasions)
+        
 
+
+### At Guerrila Games
+
+1. AI environment-aware physical behavior: https://www.youtube.com/watch?v=_mXYAPUIAqg
+2. Automatic region generation
+    1. Porting of recast 'ugly and cryptic' code
+        * Improvements of corner cases that other companies presented as challenges during GDC
+    2. Research sekeltonization algorithms
+    3. Choose and implement
+    4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
+3. Vehicle AI: https://www.youtube.com/watch?v=QjmRA2Obu9I
+4. SPU + PS3 multithreading/DMA hard bug chasing
+
+### Before that
 
 
 TODO
