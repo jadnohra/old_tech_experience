@@ -142,12 +142,16 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
                 * <img src="hkds/hkds_digger1.png" width="320"/> <img src="hkds/hkds_digger2.png" width="320"/>
         * Prerequisites that allowed to even start tackling this
             * [Rotations and Basics](hvk_other/TheMathematicsOfHavoksSolver.pdf)
+                 * <img src="hvk_other/rot_screen1.png" width="320"/>  <img src="hvk_other/rot_screen2.png" width="320"/> 
+                 * <img src="hvk_other/hms_varnames.png" width="320"/> 
             * Work on stabilizing certain constraints
             * Notebook notes on 'universal constraint'
             * [Substepping algorithm]((hvk_other/substep1.pdf))
                 * A stumbling block for others at multiple occasions
-        * MLCP
-        * Notebook 'MLCP'
+                * Local problem: <img src="hvk_other/substep_local.png" width="320"/> 
+                * Approximations: <img src="hvk_other/substep_approx.png" width="320"/> 
+                * Algorithm: <img src="hvk_other/substep_algo.png" width="280"/> 
+        * MLCP: Notebook 'MLCP'
         * Some code
             * Prototyping with Julia: https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
             * MLCP->LCP (error in paper) <img src="hkds/mlcp_conv.png" width="320"/> 
