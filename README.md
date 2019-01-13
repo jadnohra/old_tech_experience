@@ -131,19 +131,23 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * fast forward: videos
             * https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4
             * https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4
-        * Naive solution example: https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp
+        * Prerequisites that allowed to even start tackling this
+            * [Rotations and Basics](hvk_other/TheMathematicsOfHavoksSolver.pdf)
+            * Work on stabilizing certain constraints
+            * Notebook notes on 'universal constraint'
+            * [Substepping algorithm]((hvk_other/substep1.pdf))
+                * A stumbling block for others at multiple occasions
+        * MLCP
+            * Naive solution examples
+                * http://chrishecker.com/The_mixed_linear_complementarity_problem 
+                * https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp
+            * Overview: http://box2d.org/files/GDC2014/ErwinCoumans_ExploringMLCPSolversAndFeatherstone.pdf 
         * Notebook
         * Prototyping code: https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
         * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
             * Terminal ```python trace.py -test```  
             * [Trace user manual](https://github.com/jadnohra/trace)
-    * Prerequisites that allowed to even start tackling this
-        * Rotations
-        * Work on stabilizing certain constraints
-        * Notebook notes on 'universal constraint'
-        * Substepping (a stumbling block for others at multiple occasions)
         
-
 
 ### At Guerrila Games
 
