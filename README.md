@@ -76,11 +76,12 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     1. Instruction-level ARM (handicapped two-float SIMD)
     2. Buggy compiler in terms of performance optimization
     3. Very tight deadline, with failed attempts, and important business deal, on Christmas
-    4. Figure 17
+    4. <img src="wiiu/wiiu_2.png" width="320"/>
+    5. <img src="wiiu/wiiu_1.png" width="320"/>
 2. Physics-2014 contact solver perfromance
     1. Outdated expert mental models of CPUs
     2. Benchmarking ignoring real data
-    3. Research (lead time) -> branch prediction as main actor in this context
+    3. Research (https://www.agner.org/optimize/#manuals) -> branch prediction as main actor in this context
     4. Proof using counter example
     5. New (intrusive) optimization : couplign geometry processing to solver using data rearrangement
     6. Also, wrote whole new contact solver, critical component in all games shipped since ~2014
