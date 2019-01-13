@@ -10,6 +10,7 @@ Two options
     * Story with Lyft and William
 
 I decided to take option 2, because
+
 1. This time, I have very little time to prepare
 2. Too ambitious work at AID, toughest timelines I ever hard -> take my work home
     * A bit of CS problem solving prep on [Geeksforgeeks](https://auth.geeksforgeeks.org/user/Jad%20Nohra/practice/)
@@ -125,7 +126,15 @@ __I take the responsibility upon myself to spend interview time taking my approa
         * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
             * Terminal ```python trace.py -test```  
             * [Trace user manual](https://github.com/jadnohra/trace)
-        
+8. Misc.
+    * <img src="hvk_other/sampler1.PNG" width="320"/> <img src="hvk_other/sampler2.PNG" width="320"/>
+    * <img src="hvk_other/sampler3.PNG" width="320"/>
+
+## At Microsoft
+* <img src="tracking/bendphys2.JPG" width="320"/> 
+* <img src="tracking/SFR_VisualPlace_2.JPG" width="320"/>
+* <img src="mapping/phys_play.jpg" width="320"/>
+* <img src="mapping/pruning_occup.jpg" width="320"/>
 
 ## At Guerrila Games
 
