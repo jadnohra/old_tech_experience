@@ -102,7 +102,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 5. Job queue combinatorial delay mode
     * 1/100000 repro -> found in an hour
 6. Geometry numerical issues
-    * Jira epsilon
+    * [Jira epsilon](geom_num/JiraEpsilon.pdf)
     * Ray sphere: improvement by intuitive solution
     * Ray triangle
         * Improvement by analytical solution
