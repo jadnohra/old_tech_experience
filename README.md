@@ -16,9 +16,6 @@ I decided to take option 2, because
         * <img src="prep/geeks_prep.png" width="480"/>
         * Notebook
     * Did not manage to do more
-    * Big O 
-        * Remembered notes on asymptotic notation in GK
-        * Database of integer sequences (know from 'The Cauchy-Schwarz Masterclass')
 3. There are way too many topics that would need de-rusting
     * example: smart pointers 10 years ago
     * <img src="old/smart_ptr_1.png" height="240"/> <img src="old/smart_ptr_2.png" height="240"/> 
@@ -183,7 +180,16 @@ Youtube videos
             * The older the topic, the longer the lead time, can take from a couple of hours to a couple of weeks
 
 
-Appendix
+# Appendix
+
+## Miscellaneous
+
+* Big O prep
+    * Remembered notes on asymptotic notation in GK
+    * Database of integer sequences (know from 'The Cauchy-Schwarz Masterclass')
+* Concurrency prep
+    * <img src="prep/semaph.png" width="320"/>
+    * [cpp prep](./prep/cpp)
 
 References
 https://gitlab.com/jadnohra/test_AID
