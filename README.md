@@ -175,7 +175,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
     4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
 3. Vehicle AI : [Video](https://www.youtube.com/watch?v=QjmRA2Obu9I)
     * <img src="GG/vehicle.png" width="320"/>
-4. SPU + PS3 multithreading/DMA hard bug chasing
+4. SPU + PS3 multithreading/DMA tricky bug chasing
 
 ### Before that
 
