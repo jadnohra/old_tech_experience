@@ -118,12 +118,16 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * <img src="geom_num/rt1.jpeg" width="320"/>
     * Led to passion about numerical analysis (Studying, etc.)
         * [Sampler prototype (RRT)](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Numerical/nics)
+            * <img src="geom_num/nics_rnn.png" width="320"/> 
+            * <img src="geom_num/nics_fp754.png" width="320"/> 
         * Interval math library with pessimistic approximate but fast bounds (2x slower than normal arithmetic)
         * Also first steps into numerical analysis for dynamics : [Residuals](hvk_other/respart1.pdf)
+            * <img src="hvk_other/respart1_screen.png" width="320"/> 
 7. TOI Argument
     * Open problem ever since the 'toi' engine was abandoned
     * Multiple attempts that replaced artifacts with other artifacts
     * Proved that the problem is not solvable: [TOI argument](hvk_other/toiarg1.pdf)
+        * <img src="hvk_other/toiarg1_screen.png" width="320"/>
     * Effect: stop searching for the solution, focus on which artifacts to trade and when
 8. HKDS
     * Initial business need -> [HKDS overview](hkds/ds_overview1.pdf)
