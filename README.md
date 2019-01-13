@@ -136,9 +136,9 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * [More detail](hkds/ds_detail.pdf)
             * <img src="hkds/detail_screen1.png" width="640"/>
         * fast forward: videos
-            * https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4
+            * [Titan arm video](https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4)
                 * <img src="hkds/hkds_titan.png" width="320"/> 
-            * https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4
+            * [Digger video](https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4)
                 * <img src="hkds/hkds_digger1.png" width="320"/> <img src="hkds/hkds_digger2.png" width="320"/>
         * Prerequisites that allowed to even start tackling this
             * [Rotations and Basics](hvk_other/TheMathematicsOfHavoksSolver.pdf)
