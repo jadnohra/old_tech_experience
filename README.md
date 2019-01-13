@@ -125,7 +125,8 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 8. HKDS
     * Initial business need -> [HKDS overview](hkds/ds_overview1.pdf)
     * Ambitious project
-        * ds_simple
+        * A high level view of the approaches
+            * <img src="hkds/ds_simple.png" width="480"/>  
         * ds_detail
         * fast forward: videos
             * https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4
