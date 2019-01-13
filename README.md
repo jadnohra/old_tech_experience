@@ -1,7 +1,7 @@
 # Interview BMW
 
 
-## My Chosen Approach for the Interview
+## Chosen Approach for the Interview
 
 Two options
 
@@ -33,42 +33,7 @@ Note: Option 1 works great with profiles and personalities such as Jacobo
 __I take the responsibility upon myself to spend interview time taking my approach__. In the worst case it will be deemed a no-pass, but that's life.
 
 
-## Problem Solving Approach
-
-1. I have too many topics that I care about
-2. In the past, I had the luxury to focus one at a time, since some year, I cannot afford this anymore
-3. Stack keeps growing bigger
-4. Tried many techniques to mitigate this
-    1. Physical notebooks
-        * Show GK notes and paper
-            1. https://gitlab.com/jadnohra/project_gk/blob/master/simp-hing-analyt/simp-hing-analyt.pdf
-                * https://arxiv.org/pdf/1605.08221.pdf
-            2. https://gitlab.com/jadnohra/project_gk/blob/master/Code/hinge_nlsq_simul.py
-            3. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool.py
-            4. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool_repo.txt
-            5. Terminal: 
-                 ```python hinges_py2.py -scene chain -help -fancy -wobble_body -fwd_euler -control```
-        * Show MLCP
-            1. Preliminary: https://www.dropbox.com/preview/LibraryLive/TheNotes/Notes%20on%20the%20Linear%20Complementarity%20Problem.pdf?role=personal
-            2. Show Notebook
-            3. Show Videos
-                * Titan Arm: https://www.dropbox.com/home/Business/HifiSolver?preview=arm.mp4
-                * Digger: https://www.dropbox.com/home/Business/HifiSolver?preview=digger.mp4
-            4. Cannot show code
-    2. Large single-topic latex documents
-        1. show PL/QL printed book
-    3. Currently: combination of physical notes, latex summaries, and gitlab project management
-        1. https://gitlab.com/jadnohra/study/issues/17
-        2. https://gitlab.com/jadnohra/study/issues/7
-        3. https://gitlab.com/jadnohra/study/issues/13 -> https://gitlab.com/jadnohra/study/issues/15
-        4. I also use this for developing all the high-level knowledge I need about SIM & L4+, but cannot show
-        5. The biggest challenge is still memorization, I do not do it actively anymore, except when I really have to
-            * I try to work more as a 'processing machine', I open my notes, switch context for a while, and process for results
-            * The older the topic, the longer the lead time, can take from a couple of hours to a couple of weeks
-
-## Technical tidbits
-
-### At Havok
+## At Havok
 
 
 1. Nintendo WiiU math library
@@ -161,7 +126,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
             * [Trace user manual](https://github.com/jadnohra/trace)
         
 
-### At Guerrila Games
+## At Guerrila Games
 
 1. AI environment-aware physical behavior: [Video](https://www.youtube.com/watch?v=_mXYAPUIAqg)
     * <img src="GG/jetpack.png" width="320"/> <img src="GG/owl.png" width="320"/>
@@ -181,11 +146,37 @@ __I take the responsibility upon myself to spend interview time taking my approa
     * <img src="GG/vehic_planner3.png" width="320"/> 
 4. SPU + PS3 multithreading/DMA tricky bug chasing
 
-### Before that
+## Before that
 
 
 TODO
 Youtube videos
+
+## Problem Solving Approach
+
+1. I have too many topics that I care about
+2. In the past, I had the luxury to focus one at a time, since some years, I cannot afford this anymore
+3. Stack keeps growing bigger
+4. Tried many techniques to mitigate this
+    1. Physical notebooks
+        * Show GK notes and paper
+            1. https://gitlab.com/jadnohra/project_gk/blob/master/simp-hing-analyt/simp-hing-analyt.pdf
+                * https://arxiv.org/pdf/1605.08221.pdf
+            2. https://gitlab.com/jadnohra/project_gk/blob/master/Code/hinge_nlsq_simul.py
+            3. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool.py
+            4. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool_repo.txt
+            5. Terminal: 
+                 ```python hinges_py2.py -scene chain -help -fancy -wobble_body -fwd_euler -control```
+    2. Large single-topic latex documents
+        1. show PL/QL printed book
+    3. Currently: combination of physical notes, latex summaries, and gitlab project management
+        1. https://gitlab.com/jadnohra/study/issues/17
+        2. https://gitlab.com/jadnohra/study/issues/7
+        3. https://gitlab.com/jadnohra/study/issues/13 -> https://gitlab.com/jadnohra/study/issues/15
+        4. I also use this for developing all the high-level knowledge I need about SIM & L4+
+        5. The biggest challenge is still memorization, I do not do it actively anymore, except when I really have to
+            * I try to work more as a 'processing machine', I open my notes, switch context for a while, and process for results
+            * The older the topic, the longer the lead time, can take from a couple of hours to a couple of weeks
 
 
 Appendix
