@@ -70,7 +70,6 @@ __I take the responsibility upon myself to spend interview time taking my approa
 
 ### At Havok
 
-Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=short_history.pdf
 
 1. Nintendo WiiU math library
     1. Very tight deadline, with failed attempts, and important business deal. On Christmas (again!)
