@@ -150,11 +150,13 @@ __I take the responsibility upon myself to spend interview time taking my approa
 ## Before that
 1. World of Football
     * [On github](https://github.com/jadnohra/World-Of-Football)
-        *  <img src="old/wof_teaser.png" width="320"/> 
+        * <img src="old/wof_teaser.png" width="320"/>  <img src="old/wof_play.png" width="320"/> 
     * [Youtube videos](https://www.youtube.com/watch?v=lDNY4-mupf0&list=PL5ED86276C6DB1347&t=0s&index=2)
+        * <img src="old/wof_coll.png" width="320"/> 
     * [Youtube videos](https://www.youtube.com/watch?v=zBxg_Mp3md0&list=PL5ED86276C6DB1347&index=2)
 2. Mocap loader, skelton semantics, footplant detection, UI framework
     * [Bigfoot video](https://www.youtube.com/watch?v=SEntMI6s6RQ&t=0s&list=PL753A83C4444A2486&index=2)
+        * <img src="old/bigfoot_1.png" height="320"/> <img src="old/bigfoot_2.png" height="320"/> 
     * [Bigeye on gitlab](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE)
     
 
