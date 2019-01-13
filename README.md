@@ -15,7 +15,7 @@ I decided to take option 2, because
     * A bit of CS problem solving prep on [Geeksforgeeks](https://auth.geeksforgeeks.org/user/Jad%20Nohra/practice/)
         * <img src="prep/geeks_prep.png" width="480"/>
         * Notebook
-    * Did not manage to do more
+    * Did not manage to do much more
 3. There are way too many topics that would need de-rusting
     * example: smart pointers 10 years ago
     * <img src="old/smart_ptr_1.png" height="240"/> <img src="old/smart_ptr_2.png" height="240"/> 
@@ -190,35 +190,23 @@ Youtube videos
 * Concurrency prep
     * <img src="prep/semaph_prep.png" width="320"/>
     * [cpp prep](./prep/cpp)
-
-References
-https://gitlab.com/jadnohra/test_AID
- https://auth.geeksforgeeks.org/user/Jad%20Nohra/practice/
-More notes
-https://www.dropbox.com/home/LibraryLive/TheNotes2
-https://www.dropbox.com/home/LibraryLive/TheNotes2?preview=pointillistic.pdf
-TODO notes of interest
-https://www.dropbox.com/home/LibraryLive/TheNotes
-TODO notes of interest
+* Existing attempts
+    * http://chrishecker.com/The_mixed_linear_complementarity_problem 
+    * https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp
+    * Overview: http://box2d.org/files/GDC2014/ErwinCoumans_ExploringMLCPSolversAndFeatherstone.pdf 
+* More notes
+    * https://www.dropbox.com/home/LibraryLive/TheNotes2
+    * https://www.dropbox.com/home/LibraryLive/TheNotes2?preview=pointillistic.pdf
+    * https://www.dropbox.com/home/LibraryLive/TheNotes
 
 OTHER
-https://gitlab.com/jadnohra/BlackRiceLabs/blob/master/VehicleTest/RandomizedFlowFieldPlanner2.h
-https://gitlab.com/jadnohra/BlackRiceLabs/blob/master/VehicleTest/RandomizedFlowFieldPlanner.h
-https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
+
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/gk_notes_p45.txt
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/test_df.txt
-https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Labs/Bigeye/src/BE/smart_ptr.h
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE
 https://www.youtube.com/watch?v=SEntMI6s6RQ&t=0s&list=PL753A83C4444A2486&index=2
 
 https://www.youtube.com/watch?v=lDNY4-mupf0&list=PL5ED86276C6DB1347&t=0s&index=2
 https://www.youtube.com/watch?v=zBxg_Mp3md0&list=PL5ED86276C6DB1347&index=2
 https://github.com/jadnohra/World-Of-Football
-
-# Appendix MLCP
-
-Existing attempts
-    * http://chrishecker.com/The_mixed_linear_complementarity_problem 
-    * https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp
-    * Overview: http://box2d.org/files/GDC2014/ErwinCoumans_ExploringMLCPSolversAndFeatherstone.pdf 
 
