@@ -164,14 +164,19 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 
 ### At Guerrila Games
 
-1. AI environment-aware physical behavior: https://www.youtube.com/watch?v=_mXYAPUIAqg
+1. AI environment-aware physical behavior: [Video](https://www.youtube.com/watch?v=_mXYAPUIAqg)
+    * <img src="GG/jetpack.png" width="320"/>
+    * <img src="GG/owl.png" width="320"/>
 2. Automatic region generation
     1. Porting of recast 'ugly and cryptic' code
         * Improvements of corner cases that other companies presented as challenges during GDC
+        * <img src="GG/recast.png" width="320"/>
     2. Research sekeltonization algorithms
     3. Choose and implement
+        * <img src="GG/areas.png" width="320"/>
     4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
-3. Vehicle AI: https://www.youtube.com/watch?v=QjmRA2Obu9I
+3. Vehicle AI : [Video](https://www.youtube.com/watch?v=QjmRA2Obu9I)
+    * <img src="GG/vehicle.png" width="320"/>
 4. SPU + PS3 multithreading/DMA hard bug chasing
 
 ### Before that
