@@ -147,12 +147,15 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
             * [Substepping algorithm]((hvk_other/substep1.pdf))
                 * A stumbling block for others at multiple occasions
         * MLCP
-            * Naive solution examples
+        * Notebook 'MLCP'
+        * Some code
+            * Prototyping with Julia: https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
+            * MLCP->LCP (error in paper) <img src="hkds/mlcp_conv.png" width="320"/> 
+            * Co-simulation <img src="hkds/mlcp_cosim.png" width="320"/> 
+        * Existing attempts
                 * http://chrishecker.com/The_mixed_linear_complementarity_problem 
                 * https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp
-            * Overview: http://box2d.org/files/GDC2014/ErwinCoumans_ExploringMLCPSolversAndFeatherstone.pdf 
-        * Notebook 'MLCP'
-        * Prototyping code: https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
+                * Overview: http://box2d.org/files/GDC2014/ErwinCoumans_ExploringMLCPSolversAndFeatherstone.pdf 
         * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
             * Terminal ```python trace.py -test```  
             * [Trace user manual](https://github.com/jadnohra/trace)
