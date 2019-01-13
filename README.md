@@ -142,7 +142,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
                 * http://chrishecker.com/The_mixed_linear_complementarity_problem 
                 * https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp
             * Overview: http://box2d.org/files/GDC2014/ErwinCoumans_ExploringMLCPSolversAndFeatherstone.pdf 
-        * Notebook
+        * Notebook 'MLCP'
         * Prototyping code: https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
         * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
             * Terminal ```python trace.py -test```  
