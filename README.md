@@ -134,7 +134,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * Notebook
         * Prototyping code: https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
         * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
-            * [Trace user manual](hkds/trace.pdf)
+            * [Trace user manual](https://github.com/jadnohra/trace)
     * Prerequisites that allowed to even start tackling this
         * Rotations
         * Work on stabilizing certain constraints
