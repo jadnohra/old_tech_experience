@@ -114,9 +114,9 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * <img src="geom_num/03-30km_ZoomIn_ThickEdgeAlgo.jpg" width="320"/> <img src="geom_num/05-10km_ZoomIn_ThickEdge.jpg" width="320"/>
         * <img src="geom_num/rt1.jpeg" width="320"/>
     * Led to passion about numerical analysis (Studying, etc.)
-        * Sampler prototype (RRT)
+        * [Sampler prototype (RRT)](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Numerical/nics)
         * Interval math library with pessimistic approximate but fast bounds (2x slower than normal arithmetic)
-        * (respart1.pdf)
+        * Also first steps into numerical analysis for dynamics : [Residuals](hvk_other/respart1.pdf)
 7. TOI Argument
     * Open problem since the 'toi' engine was abandoned
     * Multiple attempts that replaced artifacts with other artifacts
@@ -177,7 +177,6 @@ https://gitlab.com/jadnohra/BlackRiceLabs/blob/master/VehicleTest/RandomizedFlow
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/gk_notes_p45.txt
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/test_df.txt
-https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Numerical/nics
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Labs/Bigeye/src/BE/smart_ptr.h
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE
 https://www.youtube.com/watch?v=SEntMI6s6RQ&t=0s&list=PL753A83C4444A2486&index=2
