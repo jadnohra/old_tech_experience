@@ -145,7 +145,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
                  * <img src="hvk_other/hms_varnames.png" width="320"/> 
             * Work on stabilizing certain constraints
             * Notebook notes on 'universal constraint'
-            * [Substepping algorithm]((hvk_other/substep1.pdf))
+            * Substepping algorithm [Report]((hvk_other/substep1.pdf))
                 * A stumbling block for others at multiple occasions
                 * Local problem: <img src="hvk_other/substep_local.png" width="320"/> 
                 * Approximations: <img src="hvk_other/substep_approx.png" width="320"/> 
