@@ -127,7 +127,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
             * Terminal ```python trace.py -test```  
             * [Trace user manual](https://github.com/jadnohra/trace)
 8. Misc.
-    * <img src="hvk_other/sampler2.PNG" height="320"/>
+    * <img src="hvk_other/sampler2.PNG" height="220"/>
     * <img src="hvk_other/sampler1.PNG" width="320"/> <img src="hvk_other/sampler3.PNG" width="320"/>
 
 ## At Microsoft
