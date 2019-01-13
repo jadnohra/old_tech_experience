@@ -137,7 +137,9 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
             * <img src="hkds/detail_screen1.png" width="640"/>
         * fast forward: videos
             * https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4
+                * <img src="hkds/titan.png" width="320"/> 
             * https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4
+                * <img src="hkds/digger1.png" width="320"/> <img src="hkds/digger2.png" width="320"/>
         * Prerequisites that allowed to even start tackling this
             * [Rotations and Basics](hvk_other/TheMathematicsOfHavoksSolver.pdf)
             * Work on stabilizing certain constraints
