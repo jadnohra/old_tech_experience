@@ -170,6 +170,9 @@ __I take the responsibility upon myself to spend interview time taking my approa
         * Show GK notes and paper
             1. https://gitlab.com/jadnohra/project_gk/blob/master/simp-hing-analyt/simp-hing-analyt.pdf
                 * https://arxiv.org/pdf/1605.08221.pdf
+                * <img src="uniq_lsq/screen_1.png" width="320"/> 
+                * <img src="uniq_lsq/screen_2.png" width="320"/> 
+                * <img src="uniq_lsq/screen_3.png" width="320"/> 
             2. https://gitlab.com/jadnohra/project_gk/blob/master/Code/hinge_nlsq_simul.py
             3. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool.py
             4. https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool_repo.txt
