@@ -94,10 +94,11 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 3. Deterministic scaling of cores (Intel many-core CPU R&D)
     * <img src="hvk_other/sched.png" width="320"/>
 4. Network physics R&D
-    1. Research report and proposed designs: [Report](netw/csarch1.pdf)
+    1. Research report and proposed designs: [<img src="netw/csarch1_screen1.png" width="320"/> ](netw/csarch1.pdf)
     2. Prototype
         * <img src="netw/viewer5.jpeg" width="320"/> <img src="netw/pyramid_split.png" width="320"/>
         * <img src="netw/viewer6.jpeg" width="320"/> <img src="netw/sectors2.jpeg" width="320"/>
+    3. Including low-level framework
         * <img src="netw/launcher.jpg" width="320"/>
 5. Job queue combinatorial delay mode
     * 1/100000 repro -> found in an hour
