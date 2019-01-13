@@ -133,8 +133,7 @@ __I take the responsibility upon myself to spend interview time taking my approa
 ## At Microsoft
 * <img src="tracking/SFR_VisualPlace_2.JPG" height="320"/>
 * <img src="tracking/bendphys2.JPG" width="320"/> 
-* <img src="mapping/phys_play.jpg" width="320"/>
-* <img src="mapping/pruning_occup.jpg" width="320"/>
+* <img src="mapping/phys_play.jpg" width="320"/> <img src="mapping/pruning_occup.jpg" width="320"/>
 
 ## At Guerrila Games
 
