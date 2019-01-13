@@ -131,13 +131,12 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     * Effect: stop searching for the solution, focus on which artifacts to trade and when
 8. HKDS
     * Initial business need -> [HKDS overview](hkds/ds_overview1.pdf)
-        * <img src="hkds/overview_screen1.png" width="320"/>
-        * <img src="hkds/overview_screen2.png" width="320"/>
+        * <img src="hkds/overview_screen1.png" width="320"/> <img src="hkds/overview_screen2.png" width="320"/>
     * Ambitious project
         * A high level view of the approaches
             * <img src="hkds/ds_simple.png" width="480"/>  
         * [More detail](hkds/ds_detail.pdf)
-            * <img src="hkds/detail_screen2.png" width="640"/>
+            * <img src="hkds/detail_screen1.png" width="640"/>
         * fast forward: videos
             * https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4
             * https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4
