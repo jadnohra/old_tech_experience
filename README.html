@@ -1,0 +1,563 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({"extensions":["tex2jax.js"],"jax":["input/TeX","output/HTML-CSS"],"messageStyle":"none","tex2jax":{"processEnvironments":false,"processEscapes":true,"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"TeX":{"extensions":["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]},"HTML-CSS":{"availableFonts":["TeX"]}});
+        </script>
+        <script type="text/javascript" async src="file:////Users/jad/.atom/packages/markdown-preview-enhanced/node_modules/@shd101wyy/mume/dependencies/mathjax/MathJax.js" charset="UTF-8"></script>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+ 
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <h1 id="interview-bmw">Interview BMW</h1>
+<h2 id="chosen-approach-for-the-interview">Chosen Approach for the Interview</h2>
+<p>Two options</p>
+<ol type="1">
+<li>Traditional technical interview preparation</li>
+<li>What gives the best picture of my profile
+<ul>
+<li>Story with Lyft and William</li>
+</ul></li>
+</ol>
+<p>I decided to take option 2, because</p>
+<ol type="1">
+<li>This time, I have very little time to prepare</li>
+<li>Too ambitious work at AID, toughest timelines I ever hard -&gt; take my work home
+<ul>
+<li>A bit of CS problem solving prep on <a href="https://auth.geeksforgeeks.org/user/Jad%20Nohra/practice/">Geeksforgeeks</a>
+<ul>
+<li><img src="prep/geeks_prep.png" width="480"></li>
+<li>Notebook</li>
+</ul></li>
+<li>Did not manage to do much more</li>
+</ul></li>
+<li>There are way too many topics that would need de-rusting
+<ul>
+<li>example: smart pointers 10 years ago</li>
+<li><img src="old/smart_ptr_1.png" height="240"> <img src="old/smart_ptr_2.png" height="240"></li>
+<li><a href="https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Labs/Bigeye/src/BE/smart_ptr.h">Bigeye lib on gitlab</a></li>
+</ul></li>
+<li>Option 1 worked at AID, partially due to the offline tech task
+<ol type="1">
+<li>Fits my &#x2018;French system&#x2019; engrained way of working</li>
+<li>But I am now working on improving this
+<ul>
+<li>Take chances at work for live deep thinking &amp; collaboration</li>
+</ul></li>
+<li>AID offline tech task (this is OK because it has been leaked, and we are changing it)
+<ul>
+<li><a href="https://gitlab.com/jadnohra/test_AID">Submitted on gitlab</a></li>
+<li><img src="prep/aid_test_1.png" height="240"> <img src="prep/aid_test_2.png" height="240"></li>
+<li><img src="prep/aid_test_3.png" height="240"> <img src="prep/aid_test_4.png" height="240"></li>
+</ul></li>
+</ol></li>
+</ol>
+<p>Note: Option 1 works great with profiles and personalities such as Jacobo</p>
+<p><strong>I take the responsibility upon myself to spend interview time taking my approach</strong>. In the worst case it will be deemed a no-pass, but that&#x2019;s life.</p>
+<h2 id="at-havok">At Havok</h2>
+<ol type="1">
+<li>Nintendo WiiU math library
+<ol type="1">
+<li>Very tight deadline, with failed attempts, and important business deal. On Christmas (again!)</li>
+<li>Instruction-level ARM (handicapped two-float SIMD)</li>
+<li>Buggy compiler in terms of performance optimization
+<ul>
+<li><img src="wiiu/wiiu_2.png" width="320"> <img src="wiiu/wiiu_1.png" width="320"></li>
+</ul></li>
+</ol></li>
+<li>Physics-2014 contact solver perfromance
+<ol type="1">
+<li>Outdated expert mental models of CPUs</li>
+<li>Benchmarking ignoring real data</li>
+<li>Research (https://www.agner.org/optimize/#manuals) -&gt; branch prediction as main actor in this context</li>
+<li>Proof using counter example : <img src="netw/pyramid_split.png" width="240"></li>
+<li>New (intrusive) optimization : coupling geometry processing to solver using data rearrangement</li>
+<li>Also, wrote whole new contact solver, critical component in all games shipped since ~2014
+<ul>
+<li>To get an idea <a href="https://github.com/bulletphysics/bullet3/blob/cdd56e46411527772711da5357c856a90ad9ea67/src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolverMt.cpp">Bullet solver</a></li>
+<li>Havok&#x2019;s focus: performance</li>
+<li>No bugs ever reported</li>
+<li>Defensive code (tunable defensiveness -&gt; math library only has INFTY and NAN warnings)</li>
+<li>Found bugs in other pieces of code, including hard to find bugs due to slow accumulation of wrong calculation</li>
+<li>tunable per-platform using a very carefully configured set of macros (&gt; 10 options -&gt; code path combinations)</li>
+</ul></li>
+</ol></li>
+<li>Deterministic scaling of cores (Intel many-core CPU R&amp;D)
+<ul>
+<li><img src="hvk_other/sched.png" width="320"></li>
+</ul></li>
+<li>Network physics R&amp;D
+<ol type="1">
+<li><a href="netw/csarch1.pdf">Research report</a> and proposed designs
+<ul>
+<li><img src="netw/csarch1_screen2.png" width="320"> <img src="netw/csarch1_screen1.png" width="320"></li>
+</ul></li>
+<li>Prototype
+<ul>
+<li><img src="netw/viewer5.jpeg" width="320"> <img src="netw/pyramid_split.png" width="320"></li>
+<li><img src="netw/viewer6.jpeg" width="320"> <img src="netw/sectors2.jpeg" width="320"></li>
+</ul></li>
+<li>Including low-level framework
+<ul>
+<li><img src="netw/launcher.jpg" width="320"></li>
+</ul></li>
+</ol></li>
+<li>Job queue combinatorial delay mode
+<ul>
+<li>1/100000 repro -&gt; found in an hour</li>
+</ul></li>
+<li>Geometry numerical issues
+<ul>
+<li><a href="geom_num/JiraEpsilon.pdf">Jira epsilon</a>
+<ul>
+<li><img src="geom_num/JiraEpsilon_screen1.png" width="320"><br>
+</li>
+</ul></li>
+<li>Ray sphere: improvement by intuitive solution
+<ul>
+<li><img src="geom_num/RaySphere.png" width="320"></li>
+</ul></li>
+<li>Ray triangle
+<ul>
+<li>Improvement by analytical solution
+<ul>
+<li>Books like &#x2018;Floating-Point Computation (Strebenz)&#x2019;, resources like &#x2018;???&#x2019;</li>
+</ul></li>
+<li>Telescoping debugger</li>
+<li><img src="geom_num/00-10km_NoToleranceAlgo_CurrAlgo.jpg" width="240"> <img src="geom_num/04-10km_ZeroToleranceAlgo_CurrAlgo.jpg" width="240"></li>
+<li><img src="geom_num/01-30km_NaiveTolerranceAlgo.jpg" width="240"> <img src="geom_num/02-30km_ThickEdgeAlgo.jpg" width="240"><br>
+</li>
+<li><img src="geom_num/03-30km_ZoomIn_ThickEdgeAlgo.jpg" width="240"> <img src="geom_num/05-10km_ZoomIn_ThickEdge.jpg" width="240"></li>
+<li><img src="geom_num/rt1.jpeg" width="240"></li>
+</ul></li>
+<li>Led to passion about numerical analysis (Studying, etc.)
+<ul>
+<li><a href="https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Numerical/nics">Sampler prototype (RRT)</a>
+<ul>
+<li><img src="geom_num/nics_rnn.png" width="320"> <img src="geom_num/nics_fp754.png" width="320"></li>
+</ul></li>
+<li>Interval math library with pessimistic approximate but fast bounds (2x slower than normal arithmetic)</li>
+<li>Also first steps into numerical analysis for dynamics : <a href="hvk_other/respart1.pdf">Residuals</a>
+<ul>
+<li><img src="hvk_other/respart1_screen.png" width="320"></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>TOI Argument
+<ul>
+<li>Open problem ever since the &#x2018;toi&#x2019; engine was abandoned</li>
+<li>Multiple attempts that replaced artifacts with other artifacts</li>
+<li>Proved that the problem is not solvable: <a href="hvk_other/toiarg1.pdf">TOI argument</a>
+<ul>
+<li><img src="hvk_other/toiarg1_screen.png" width="320"></li>
+</ul></li>
+<li>Effect: stop searching for the solution, focus on which artifacts to trade and when</li>
+</ul></li>
+<li>HKDS
+<ul>
+<li>Initial business need -&gt; <a href="hkds/ds_overview1.pdf">HKDS overview</a>
+<ul>
+<li><img src="hkds/overview_screen1.png" width="320"> <img src="hkds/overview_screen2.png" width="320"></li>
+</ul></li>
+<li>Ambitious project
+<ul>
+<li>A high level view of the approaches
+<ul>
+<li><img src="hkds/ds_simple.png" width="480"><br>
+</li>
+</ul></li>
+<li><a href="hkds/ds_detail.pdf">More detail</a>
+<ul>
+<li><img src="hkds/detail_screen1.png" width="640"></li>
+</ul></li>
+<li>fast forward: videos
+<ul>
+<li><a href="https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4">Titan arm video</a>
+<ul>
+<li><img src="hkds/hkds_titan.png" width="320"></li>
+</ul></li>
+<li><a href="https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4">Digger video</a>
+<ul>
+<li><img src="hkds/hkds_digger1.png" width="320"> <img src="hkds/hkds_digger2.png" width="320"></li>
+</ul></li>
+</ul></li>
+<li>Prerequisites that allowed to even start tackling this
+<ul>
+<li><a href="hvk_other/TheMathematicsOfHavoksSolver.pdf">Rotations and Basics</a>
+<ul>
+<li><img src="hvk_other/rot_screen1.png" width="320"> <img src="hvk_other/rot_screen2.png" width="320"></li>
+<li><img src="hvk_other/hms_varnames.png" width="320"></li>
+</ul></li>
+<li>Work on stabilizing certain constraints</li>
+<li>Notebook notes on &#x2018;universal constraint&#x2019;</li>
+<li>Substepping algorithm <a href="(hvk_other/substep1.pdf)">Report</a>
+<ul>
+<li>A stumbling block for others at multiple occasions</li>
+<li>Local problem: <img src="hvk_other/substep_local.png" width="320"></li>
+<li>Approximations: <img src="hvk_other/substep_approx.png" width="320"></li>
+<li>Algorithm: <img src="hvk_other/substep_algo.png" width="280"></li>
+</ul></li>
+</ul></li>
+<li>MLCP: Notebook &#x2018;MLCP&#x2019;</li>
+<li>Some code
+<ul>
+<li>Prototyping using Julia : <a href="https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl">Gitlab</a>
+<ul>
+<li><img src="hkds/mlcp_chuzro.png" width="320"> <img src="hkds/mlcp_refs.png" width="320"><br>
+</li>
+</ul></li>
+<li>MLCP-&gt;LCP (error in paper) <img src="hkds/mlcp_conv.png" width="320"></li>
+<li>Co-simulation <img src="hkds/mlcp_cosim.png" width="320"></li>
+</ul></li>
+<li>Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320">
+<ul>
+<li>Terminal <code>python trace.py -test</code><br>
+</li>
+<li><a href="https://github.com/jadnohra/trace">Trace user manual</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ol>
+<h2 id="at-guerrila-games">At Guerrila Games</h2>
+<ol type="1">
+<li>AI environment-aware physical behavior: <a href="https://www.youtube.com/watch?v=_mXYAPUIAqg">Video</a>
+<ul>
+<li><img src="GG/jetpack.png" width="320"> <img src="GG/owl.png" width="320"></li>
+</ul></li>
+<li>Automatic region generation
+<ol type="1">
+<li>Porting of recast &#x2018;ugly and cryptic&#x2019; code
+<ul>
+<li>Improvements of corner cases that other companies presented as challenges during GDC</li>
+<li><img src="GG/recast.png" width="320"></li>
+</ul></li>
+<li>Research sekeltonization algorithms</li>
+<li>Choose and implement
+<ul>
+<li><img src="GG/areas.png" width="320"></li>
+</ul></li>
+<li>Modify to fit our application (stray edges)
+<ul>
+<li><a href="http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html"><img src="GG/scikit_skel.png" width="320"></a></li>
+</ul></li>
+</ol></li>
+<li>Vehicle AI : <a href="https://www.youtube.com/watch?v=QjmRA2Obu9I">Video</a>
+<ul>
+<li><img src="GG/vehicle.png" width="320"></li>
+<li>Prototyping <a href="https://gitlab.com/jadnohra/BlackRiceLabs/blob/master/VehicleTest">VehicleTest on gitlab</a></li>
+<li><img src="GG/vehic_planner1.png" height="320"> <img src="GG/vehic_planner2.png" height="320"></li>
+<li><img src="GG/vehic_planner3.png" width="320"></li>
+</ul></li>
+<li>SPU + PS3 multithreading/DMA tricky bug chasing</li>
+</ol>
+<h2 id="before-that">Before that</h2>
+<ol type="1">
+<li>World of Football
+<ul>
+<li><a href="https://github.com/jadnohra/World-Of-Football">On github</a>
+<ul>
+<li><img src="old/wof_teaser.png" width="320"> <img src="old/wof_play.png" width="320"></li>
+</ul></li>
+<li><a href="https://www.youtube.com/watch?v=lDNY4-mupf0&amp;list=PL5ED86276C6DB1347&amp;t=0s&amp;index=2">Youtube videos</a>
+<ul>
+<li><img src="old/wof_coll.png" width="320"></li>
+</ul></li>
+<li><a href="https://www.youtube.com/watch?v=zBxg_Mp3md0&amp;list=PL5ED86276C6DB1347&amp;index=2">Youtube videos</a></li>
+</ul></li>
+<li>Mocap loader, skelton semantics, footplant detection, UI framework
+<ul>
+<li><a href="https://www.youtube.com/watch?v=SEntMI6s6RQ&amp;t=0s&amp;list=PL753A83C4444A2486&amp;index=2">Bigfoot video</a>
+<ul>
+<li><img src="old/bigfoot_1.png" height="240"> <img src="old/bigfoot_2.png" height="240"></li>
+</ul></li>
+<li><a href="https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE">Bigeye on gitlab</a></li>
+</ul></li>
+</ol>
+<h2 id="problem-solving-approach">Problem Solving Approach</h2>
+<ol type="1">
+<li>I have too many topics that I care about</li>
+<li>In the past, I had the luxury to focus one at a time, since some years, I cannot afford this anymore</li>
+<li>Stack keeps growing bigger</li>
+<li>Tried many techniques to mitigate this
+<ol type="1">
+<li>Physical notebooks
+<ul>
+<li>Show GK notes and paper
+<ol type="1">
+<li>https://gitlab.com/jadnohra/project_gk/blob/master/simp-hing-analyt/simp-hing-analyt.pdf
+<ul>
+<li><a href="https://arxiv.org/pdf/1605.08221.pdf">public arxiv.org version: &#x2018;Uniqueness of Minima of a Certain Least Squares Problem&#x2019;</a></li>
+<li><img src="uniq_lsq/screen_1.png" width="320"></li>
+<li><img src="uniq_lsq/screen_2.png" width="320"> <img src="uniq_lsq/screen_3.png" width="320"></li>
+</ul></li>
+<li>https://gitlab.com/jadnohra/project_gk/blob/master/Code/hinge_nlsq_simul.py</li>
+<li>https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool.py</li>
+<li>https://gitlab.com/jadnohra/project_gk/blob/master/Code/plot_tool_repo.txt</li>
+<li>https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/gk_notes_p45.txt</li>
+<li>https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_salutem/scripts/test_df.txt</li>
+<li>Terminal: <code>{.text data-role=&quot;codeBlock&quot; data-info=&quot;python hinges_py2.py -scene chain -help -fancy -wobble_body -fwd_euler -control</code>&quot; data-parsed-info=&#x201C;{&#x201D;language&#x201C;:&#x201D;python&#x201C;,&#x201D;attributes&#x201C;:{&#x201D;hinges_py2.py&#x201C;:true,&#x201D;-scene&#x201C;:true,&#x201D;chain&#x201C;:true,&#x201D;-help&#x201C;:true,&#x201D;-fancy&#x201C;:true,&#x201D;-wobble_body&#x201C;:true,&#x201D;-fwd_euler&#x201C;:true,&#x201D;-control```&#x201C;:true}}&#x201D; data-normalized-info=&#x201C;{&#x201D;language&#x201C;:&#x201D;python&#x201C;,&#x201D;attributes&#x201C;:{&#x201D;chain&#x201C;:true,&#x201D;hinges_py_2_py&#x201C;:true,&#x201D;scene&#x201C;:true,&#x201D;help&#x201C;:true,&#x201D;fancy&#x201C;:true,&#x201D;wobble_body&#x201C;:true,&#x201D;fwd_euler&#x201C;:true,&#x201D;control&#x201C;:true}}&#x201D;}</li>
+</ol></li>
+</ul></li>
+<li>Large single-topic latex documents
+<ol type="1">
+<li>show PL/QL printed book</li>
+</ol></li>
+<li>Currently: combination of physical notes, latex summaries, and gitlab project management
+<ol type="1">
+<li>https://gitlab.com/jadnohra/study/issues/17</li>
+<li>https://gitlab.com/jadnohra/study/issues/7</li>
+<li>https://gitlab.com/jadnohra/study/issues/13 -&gt; https://gitlab.com/jadnohra/study/issues/15</li>
+<li>I also use this for developing all the high-level knowledge I need about SIM &amp; L4+</li>
+<li>The biggest challenge is still memorization, I do not do it actively anymore, except when I really have to
+<ul>
+<li>I try to work more as a &#x2018;processing machine&#x2019;, I open my notes, switch context for a while, and process for results</li>
+<li>The older the topic, the longer the lead time, can take from a couple of hours to a couple of weeks</li>
+</ul></li>
+</ol></li>
+</ol></li>
+</ol>
+<h1 id="appendix">Appendix</h1>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<ul>
+<li>Big O prep
+<ul>
+<li>Remembered notes on asymptotic notation in GK</li>
+<li>Database of integer sequences (know from &#x2018;The Cauchy-Schwarz Masterclass&#x2019;)</li>
+</ul></li>
+<li>Concurrency prep
+<ul>
+<li><img src="prep/semaph_prep.png" width="320"></li>
+<li><a href="./prep/cpp">cpp prep</a></li>
+</ul></li>
+<li>Existing attempts
+<ul>
+<li>http://chrishecker.com/The_mixed_linear_complementarity_problem</li>
+<li>https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp</li>
+<li>Overview: http://box2d.org/files/GDC2014/ErwinCoumans_ExploringMLCPSolversAndFeatherstone.pdf</li>
+</ul></li>
+<li>More notes
+<ul>
+<li>https://www.dropbox.com/home/LibraryLive/TheNotes2</li>
+<li>https://www.dropbox.com/home/LibraryLive/TheNotes2?preview=pointillistic.pdf</li>
+<li>https://www.dropbox.com/home/LibraryLive/TheNotes</li>
+</ul></li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
