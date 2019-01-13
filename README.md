@@ -84,7 +84,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     4. Proof using counter example :  <img src="netw/pyramid_split.png" width="240"/>
     5. New (intrusive) optimization : coupling geometry processing to solver using data rearrangement
     6. Also, wrote whole new contact solver, critical component in all games shipped since ~2014
-        * To get an idea: https://github.com/bulletphysics/bullet3/blob/cdd56e46411527772711da5357c856a90ad9ea67/src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolverMt.cpp
+        * To get an idea [Bullet solver](https://github.com/bulletphysics/bullet3/blob/cdd56e46411527772711da5357c856a90ad9ea67/src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolverMt.cpp)
         * Havok's focus: performance
         * No bugs ever reported
         * Defensive code (tunable defensiveness -> math library only has INFTY and NAN warnings)
@@ -165,8 +165,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
 ### At Guerrila Games
 
 1. AI environment-aware physical behavior: [Video](https://www.youtube.com/watch?v=_mXYAPUIAqg)
-    * <img src="GG/jetpack.png" width="320"/>
-    * <img src="GG/owl.png" width="320"/>
+    * <img src="GG/jetpack.png" width="320"/> <img src="GG/owl.png" width="320"/>
 2. Automatic region generation
     1. Porting of recast 'ugly and cryptic' code
         * Improvements of corner cases that other companies presented as challenges during GDC
