@@ -172,9 +172,13 @@ __I take the responsibility upon myself to spend interview time taking my approa
     2. Research sekeltonization algorithms
     3. Choose and implement
         * <img src="GG/areas.png" width="320"/>
-    4. Modify to fit our application (stray edges): http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html
+    4. Modify to fit our application (stray edges)
+        * [<img src="GG/scikit_skel.png" width="320"/>](http://scikit-image.org/docs/0.7.0/auto_examples/plot_medial_transform.html)
 3. Vehicle AI : [Video](https://www.youtube.com/watch?v=QjmRA2Obu9I)
     * <img src="GG/vehicle.png" width="320"/>
+    * Prototyping [VehicleTest on gitlab](https://gitlab.com/jadnohra/BlackRiceLabs/blob/master/VehicleTest)
+    * <img src="GG/vehic_planner1.png" height="320"/> <img src="GG/vehic_planner2.png" height="320"/> 
+    * <img src="GG/vehic_planner3.png" width="320"/> 
 4. SPU + PS3 multithreading/DMA tricky bug chasing
 
 ### Before that
