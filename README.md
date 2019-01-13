@@ -154,7 +154,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
         * MLCP: Notebook 'MLCP'
         * Some code
             * [Prototyping]( https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl) using Julia
-                *  <img src="hkds/mlcp_chuzro.png" width="320"/> <img src="hkds/mlc_refs.png" width="320"/>   
+                *  <img src="hkds/mlcp_chuzro.png" width="320"/> <img src="hkds/mlcp_refs.png" width="320"/>   
             * MLCP->LCP (error in paper) <img src="hkds/mlcp_conv.png" width="320"/> 
             * Co-simulation <img src="hkds/mlcp_cosim.png" width="320"/> 
         * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
