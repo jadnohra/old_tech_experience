@@ -82,18 +82,21 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     1. Outdated expert mental models of CPUs
     2. Benchmarking ignoring real data
     3. Research (https://www.agner.org/optimize/#manuals) -> branch prediction as main actor in this context
-    4. Proof using counter example
+    4. Proof using counter example :  <img src="netw/pyramid_split.png" width="240"/>
     5. New (intrusive) optimization : couplign geometry processing to solver using data rearrangement
     6. Also, wrote whole new contact solver, critical component in all games shipped since ~2014
         * No bugs ever reported
         * Defensive code (tunable defensiveness -> math library only has INFTY and NAN warnings)
         * Found bugs in other pieces of code, including hard to find bugs due to slow accumulation of wrong calculation
         * tunable per-platform using a very carefully configured set of macros (> 10 options -> code path combinations)
-    7. Example of pyramid at Figure 12
 3. Deterministic scaling of cores (Intel many-core CPU R&D)
+    * <img src="hvk_other/sched.png" width="320"/>
 4. Network physics R&D
-    1. Research report and proposed designs
+    1. Research report and proposed designs: [Report](netw/csarch1.pdf)
     2. Prototype
+        * <img src="netw/viewer5.jpeg" width="320"/> <img src="netw/pyramid_split.png" width="320"/>
+        * <img src="netw/viewer6.jpeg" width="320"/> <img src="netw/sectors2.jpeg" width="320"/>
+        * <img src="netw/launcher.jpg" width="320"/>
 5. Job queue combinatorial delay mode
     * 1/100000 repro -> found in an hour
 6. Geometry numerical issues
