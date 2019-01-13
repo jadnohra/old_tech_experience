@@ -127,12 +127,12 @@ __I take the responsibility upon myself to spend interview time taking my approa
             * Terminal ```python trace.py -test```  
             * [Trace user manual](https://github.com/jadnohra/trace)
 8. Misc.
-    * <img src="hvk_other/sampler1.PNG" width="320"/> <img src="hvk_other/sampler2.PNG" width="320"/>
-    * <img src="hvk_other/sampler3.PNG" width="320"/>
+    * <img src="hvk_other/sampler2.PNG" height="320"/>
+    * <img src="hvk_other/sampler1.PNG" width="320"/> <img src="hvk_other/sampler3.PNG" width="320"/>
 
 ## At Microsoft
+* <img src="tracking/SFR_VisualPlace_2.JPG" height="320"/>
 * <img src="tracking/bendphys2.JPG" width="320"/> 
-* <img src="tracking/SFR_VisualPlace_2.JPG" width="320"/>
 * <img src="mapping/phys_play.jpg" width="320"/>
 * <img src="mapping/pruning_occup.jpg" width="320"/>
 
