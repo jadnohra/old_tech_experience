@@ -148,6 +148,10 @@ __I take the responsibility upon myself to spend interview time taking my approa
 4. SPU + PS3 multithreading/DMA tricky bug chasing
 
 ## Before that
+1. World of Football
+    * [On github](https://github.com/jadnohra/World-Of-Football)
+    * [Youtube videos](https://www.youtube.com/watch?v=lDNY4-mupf0&list=PL5ED86276C6DB1347&t=0s&index=2)
+    * [Youtube videos](https://www.youtube.com/watch?v=zBxg_Mp3md0&list=PL5ED86276C6DB1347&index=2)
 
 
 TODO
@@ -206,7 +210,4 @@ https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/asinus_sa
 https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE
 https://www.youtube.com/watch?v=SEntMI6s6RQ&t=0s&list=PL753A83C4444A2486&index=2
 
-https://www.youtube.com/watch?v=lDNY4-mupf0&list=PL5ED86276C6DB1347&t=0s&index=2
-https://www.youtube.com/watch?v=zBxg_Mp3md0&list=PL5ED86276C6DB1347&index=2
-https://github.com/jadnohra/World-Of-Football
 
