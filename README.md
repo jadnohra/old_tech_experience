@@ -127,7 +127,7 @@ Figures at: https://www.dropbox.com/home/Business/Hvk/short_history?preview=shor
     * Ambitious project
         * A high level view of the approaches
             * <img src="hkds/ds_simple.png" width="480"/>  
-        * ds_detail
+        * [More detail](hkds/ds_detail.pdf)
         * fast forward: videos
             * https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4
             * https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4
