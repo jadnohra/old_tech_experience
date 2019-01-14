@@ -1,38 +1,6 @@
 # Interview BMW
 
 
-## Chosen Approach for the Interview
-
-Two options
-
-1. Traditional technical interview preparation
-2. What gives the best picture of my profile
-    * Story with Lyft and William
-
-I decided to take option 2, because
-
-1. This time, I have very little time to prepare
-2. Too ambitious work at AID, toughest timelines I ever hard -> take my work home
-    * A bit of CS problem solving prep on [Geeksforgeeks](https://auth.geeksforgeeks.org/user/Jad%20Nohra/practice/)
-        * <img src="prep/geeks_prep.png" width="480"/>
-        * Notebook
-    * Did not manage to do much more
-3. There are way too many topics that would need de-rusting
-    * example: smart pointers 10 years ago
-    * <img src="old/smart_ptr_1.png" height="240"/> <img src="old/smart_ptr_2.png" height="240"/> 
-    * [Bigeye lib on gitlab](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Labs/Bigeye/src/BE/smart_ptr.h)
-4. Option 1 worked at AID, partially due to the offline tech task
-    1. Fits my 'French system' engrained way of working
-    2. But I am now working on improving this
-        * Take chances at work for live deep thinking & collaboration
-    3. AID offline tech task (this is OK because it has been leaked, and we are changing it)
-        * [Submitted on gitlab](https://gitlab.com/jadnohra/test_AID)
-        * <img src="prep/aid_test_1.png" height="240"/> <img src="prep/aid_test_2.png" height="240"/>
-        * <img src="prep/aid_test_3.png" height="240"/> <img src="prep/aid_test_4.png" height="240"/>
-
-Note: Option 1 works great with profiles and personalities such as Jacobo
-
-__I take the responsibility upon myself to spend interview time taking my approach__. In the worst case it will be deemed a no-pass, but that's life.
 
 
 ## At Havok
@@ -167,6 +135,9 @@ __I take the responsibility upon myself to spend interview time taking my approa
         * <img src="old/bigfoot_1.png" height="240"/> <img src="old/bigfoot_2.png" height="240"/> 
     * [Bigeye on gitlab](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/tree/master/Labs/Bigeye/src/BE)
         * <img src="old/bigeye_1.png" width="320"/>
+    * example: smart pointers 10 years ago
+        * <img src="old/smart_ptr_1.png" height="240"/> <img src="old/smart_ptr_2.png" height="240"/>     
+
 
 ## Problem Solving Approach
 
@@ -198,17 +169,8 @@ __I take the responsibility upon myself to spend interview time taking my approa
             * I try to work more as a 'processing machine', I open my notes, switch context for a while, and process for results
             * The older the topic, the longer the lead time, can take from a couple of hours to a couple of weeks
 
-
-# Appendix
-
 ## Miscellaneous
 
-* Big O prep
-    * Remembered notes on asymptotic notation in GK
-    * Database of integer sequences (know from 'The Cauchy-Schwarz Masterclass')
-* Concurrency prep
-    * <img src="prep/semaph_prep.png" width="320"/>
-    * [cpp prep](./prep/cpp)
 * Existing attempts
     * http://chrishecker.com/The_mixed_linear_complementarity_problem 
     * https://github.com/thomasmarsh/ODE/blob/df82c09d967d486822ea1715a09291593ba471a6/ode/src/lcp.cpp
@@ -219,4 +181,36 @@ __I take the responsibility upon myself to spend interview time taking my approa
     * https://www.dropbox.com/home/LibraryLive/TheNotes
 
 
+## Chosen Approach for the Interview
+
+Two options
+
+1. Traditional technical interview preparation
+2. What gives the best picture of my profile
+    * Story with Lyft and William
+
+I decided to take option 2, because
+
+1. This time, I have very little time to prepare
+2. Too ambitious work at AID, toughest timelines I ever hard -> take my work home
+    * A bit of CS problem solving prep on [Geeksforgeeks](https://auth.geeksforgeeks.org/user/Jad%20Nohra/practice/)
+        * <img src="prep/geeks_prep.png" width="480"/>
+        * Notebook
+    * Did not manage to do much more
+3. There are way too many topics that would need de-rusting
+    * example: smart pointers 10 years ago
+    * <img src="old/smart_ptr_1.png" height="240"/> <img src="old/smart_ptr_2.png" height="240"/> 
+    * [Bigeye lib on gitlab](https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Labs/Bigeye/src/BE/smart_ptr.h)
+4. Option 1 worked at AID, partially due to the offline tech task
+    1. Fits my 'French system' engrained way of working
+    2. But I am now working on improving this
+        * Take chances at work for live deep thinking & collaboration
+    3. AID offline tech task (this is OK because it has been leaked, and we are changing it)
+        * [Submitted on gitlab](https://gitlab.com/jadnohra/test_AID)
+        * <img src="prep/aid_test_1.png" height="240"/> <img src="prep/aid_test_2.png" height="240"/>
+        * <img src="prep/aid_test_3.png" height="240"/> <img src="prep/aid_test_4.png" height="240"/>
+
+Note: Option 1 works great with profiles and personalities such as Jacobo
+
+__I take the responsibility upon myself to spend interview time taking my approach__. In the worst case it will be deemed a no-pass, but that's life.
 
