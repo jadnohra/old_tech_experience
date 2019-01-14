@@ -7,13 +7,12 @@
 
 
 1. Nintendo WiiU math library
-    1. Very tight deadline, with failed attempts, and important business deal. On Christmas (again!)
-    2. Instruction-level ARM (handicapped two-float SIMD)
-    3. Buggy compiler in terms of performance optimization
+    1. Instruction-level ARM (handicapped two-float SIMD)
+    2. Buggy compiler in terms of performance optimization
         * <img src="wiiu/wiiu_2.png" width="320"/> <img src="wiiu/wiiu_1.png" width="320"/>
 2. Physics-2014 contact solver perfromance
-    1. Outdated expert mental models of CPUs
-    2. Benchmarking ignoring real data
+    1. Mental models of CPUs at race with CPU improvements
+        * Benchmarking ignoring real data becomes dangerous
     3. Research (https://www.agner.org/optimize/#manuals) -> branch prediction as main actor in this context
     4. Proof using counter example :  <img src="netw/pyramid_split.png" width="240"/>
     5. New (intrusive) optimization : coupling geometry processing to solver using data rearrangement
@@ -56,44 +55,43 @@
         * Also first steps into numerical analysis for dynamics : [Residuals](hvk_other/respart1.pdf)
             * <img src="hvk_other/respart1_screen.png" width="320"/> 
 7. TOI Argument
-    * Open problem ever since the 'toi' engine was abandoned
+    * Open problem ever since the 'TOI' engine was abandoned
     * Multiple attempts that replaced artifacts with other artifacts
     * Proved that the problem is not solvable: [TOI argument](hvk_other/toiarg1.pdf)
         * <img src="hvk_other/toiarg1_screen.png" width="320"/>
     * Effect: stop searching for the solution, focus on which artifacts to trade and when
 8. HKDS
-    * Initial business need -> [HKDS overview](hkds/ds_overview1.pdf)
+    * Overview : [HKDS overview](hkds/ds_overview1.pdf)
         * <img src="hkds/overview_screen1.png" width="320"/> <img src="hkds/overview_screen2.png" width="320"/>
-    * Ambitious project
-        * A high level view of the approaches
-            * <img src="hkds/ds_simple.png" width="480"/>  
-        * [More detail](hkds/ds_detail.pdf)
-            * <img src="hkds/detail_screen1.png" width="640"/>
-        * fast forward: videos
-            * [Titan arm video](https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4)
-                * <img src="hkds/hkds_titan.png" width="320"/> 
-            * [Digger video](https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4)
-                * <img src="hkds/hkds_digger1.png" width="320"/> <img src="hkds/hkds_digger2.png" width="320"/>
-        * Prerequisites that allowed to even start tackling this
-            * [Rotations and Basics](hvk_other/TheMathematicsOfHavoksSolver.pdf)
-                 * <img src="hvk_other/rot_screen1.png" width="320"/>  <img src="hvk_other/rot_screen2.png" width="320"/> 
-                 * <img src="hvk_other/hms_varnames.png" width="320"/> 
-            * Work on stabilizing certain constraints
-            * Notebook notes on 'universal constraint'
-            * Substepping algorithm [Report]((hvk_other/substep1.pdf))
-                * A stumbling block for others at multiple occasions
-                * Local problem: <img src="hvk_other/substep_local.png" width="320"/> 
-                * Approximations: <img src="hvk_other/substep_approx.png" width="320"/> 
-                * Algorithm: <img src="hvk_other/substep_algo.png" width="280"/> 
-        * MLCP: Notebook 'MLCP'
-        * Some code
-            * Prototyping using Julia : [Gitlab]( https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl)
-                *  <img src="hkds/mlcp_chuzro.png" width="320"/> <img src="hkds/mlcp_refs.png" width="320"/>   
-            * MLCP->LCP (error in paper) <img src="hkds/mlcp_conv.png" width="320"/> 
-            * Co-simulation <img src="hkds/mlcp_cosim.png" width="320"/> 
-        * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
-            * Terminal ```python trace.py -test```  
-            * [Trace user manual](https://github.com/jadnohra/trace)
+    * A high level view of the approaches
+        * <img src="hkds/ds_simple.png" width="480"/>  
+    * [More detail](hkds/ds_detail.pdf)
+        * <img src="hkds/detail_screen1.png" width="640"/>
+    * Fast forward: videos of results
+        * [Titan arm video](https://www.dropbox.com/home/business/HifiSolver?preview=arm.mp4)
+            * <img src="hkds/hkds_titan.png" width="320"/> 
+        * [Digger video](https://www.dropbox.com/home/business/HifiSolver?preview=digger.mp4)
+            * <img src="hkds/hkds_digger1.png" width="320"/> <img src="hkds/hkds_digger2.png" width="320"/>
+    * Prerequisites that allowed to even start tackling this
+        * [Rotations and Basics](hvk_other/TheMathematicsOfHavoksSolver.pdf)
+             * <img src="hvk_other/rot_screen1.png" width="320"/>  <img src="hvk_other/rot_screen2.png" width="320"/> 
+             * <img src="hvk_other/hms_varnames.png" width="320"/> 
+        * Work on stabilizing certain constraints
+        * Notebook notes on 'universal constraint'
+        * Substepping algorithm [Report]((hvk_other/substep1.pdf))
+            * A stumbling block for others at multiple occasions
+            * Local problem: <img src="hvk_other/substep_local.png" width="320"/> 
+            * Approximations: <img src="hvk_other/substep_approx.png" width="320"/> 
+            * Algorithm: <img src="hvk_other/substep_algo.png" width="280"/> 
+    * MLCP: Notebook 'MLCP'
+    * Some code
+        * Prototyping using Julia : [Gitlab]( https://gitlab.com/jadnohra/jad-pre-2015-dabblings/blob/master/Lab2015/mlcp2.0/lp_jad.jl)
+            *  <img src="hkds/mlcp_chuzro.png" width="320"/> <img src="hkds/mlcp_refs.png" width="320"/>   
+        * MLCP->LCP (error in paper) <img src="hkds/mlcp_conv.png" width="320"/> 
+        * Co-simulation <img src="hkds/mlcp_cosim.png" width="320"/> 
+    * Dynamics debugging tool: <img src="hkds/mlcp_trace.png" width="320"/> 
+        * Terminal ```python trace.py -test```  
+        * [Trace user manual](https://github.com/jadnohra/trace)
 8. Misc.
     * <img src="hvk_other/sampler2.PNG" height="220"/>
     * <img src="hvk_other/sampler1.PNG" width="320"/> <img src="hvk_other/sampler3.PNG" width="320"/>
