@@ -1,8 +1,3 @@
-# Interview BMW
-
-
-
-
 ## At Havok
 
 
