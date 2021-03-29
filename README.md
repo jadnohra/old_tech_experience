@@ -16,6 +16,12 @@
 - [6. Miscellaneous](#6-miscellaneous)
 
 ---
+# 0. Currently
+
+ * Scenario language
+ * Map search
+ * Scenario augmenter design
+ * Test validation concept
 
 # 1. At Havok
 
