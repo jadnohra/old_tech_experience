@@ -26,7 +26,6 @@
    - https://github.com/jadnohra/trace, a real-time data plotting tool
    - https://github.com/jadnohra/tag_export
    - https://github.com/jadnohra/TheNotes
- 
  * Scenario language
  * Map search
  * Scenario augmenter design
