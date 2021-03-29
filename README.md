@@ -19,6 +19,7 @@
 ---
 # 0. Currently
 
+ * [CV](./cv/CV_Jad-Nohra_2021-03-05.pdf)
  * Scenario language
  * Map search
  * Scenario augmenter design
