@@ -20,6 +20,13 @@
 # 0. Currently
 
  * [CV](./cv/CV_Jad-Nohra_2021-03-05.pdf)
+   - https://github.com/jadnohra/daisy, a traffic simulator
+   - https://github.com/jadnohra/PaCoS, a concurrency determinism simulator 
+   - https://github.com/jadnohra/hinges_py, a rigid-body-dynamics simulator
+   - https://github.com/jadnohra/trace, a real-time data plotting tool
+   - https://github.com/jadnohra/tag_export
+   - https://github.com/jadnohra/TheNotes
+ 
  * Scenario language
  * Map search
  * Scenario augmenter design
